@@ -1,5 +1,5 @@
 module.exports = (sequelize, DataTypes) => {
-
+    
     const alias = "User"
 
     const cols = {
@@ -28,7 +28,7 @@ module.exports = (sequelize, DataTypes) => {
 
     const config = {
         tablename :'users',
-        timestamps : true,
+        timestamps : false,
         underscored : true,
     }
 
