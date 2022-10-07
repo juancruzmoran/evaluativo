@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body class="body">
+
+        <h1 class="title_home">   Usuarios:  </h1>
+    <br>
+
+    <div class="users_body">
+        <ul>
+            <% for( let i = 0; i < users.length; i++ ) { %>
+            <li>
+                <span class="name"><%= users[i].first_name%> // </span>
+                <span> <%= users[i].email%> </span>
+            </li>
+            <% } %>
+    
+        </ul>
+    </div>
+<br>    
+    <div>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Officiis repudiandae laborum unde molestiae?</p>
+        <p>Libero doloribus odit fugit asperiores?</p>
+        <p>Expedita deserunt aliquid ipsam quidem?</p>
+        <p>Rem reprehenderit consequatur impedit facilis.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Officiis repudiandae laborum unde molestiae?</p>
+        <p>Libero doloribus odit fugit asperiores?</p>
+        <p>Expedita deserunt aliquid ipsam quidem?</p>
+        <p>Rem reprehenderit consequatur impedit facilis.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Officiis repudiandae laborum unde molestiae?</p>
+        <p>Libero doloribus odit fugit asperiores?</p>
+        <p>Expedita deserunt aliquid ipsam quidem?</p>
+        <p>Rem reprehenderit consequatur impedit facilis.</p> 
+    </div>
+
+</body>
+</html>

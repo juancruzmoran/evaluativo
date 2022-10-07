@@ -32,7 +32,7 @@ module.exports = (sequelize, DataTypes) => {
             allowNull: false,
         },
         remove : {
-            type: dataTypes.BOOLEAN,
+            type: DataTypes.BOOLEAN,
         }
     }
 

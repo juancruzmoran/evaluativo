@@ -1,0 +1,21 @@
+.body {
+    background-color: beige;
+    padding: 50px;
+    border: 2px solid black;
+}
+.users_body {
+    background-color: antiquewhite;
+    border: 2px solid black;
+    width: 50%;
+}
+.users_body ul li {
+    font-style:oblique;
+    list-style: none;
+    padding-top: 5px;
+
+}
+.users_body ul li span {
+    text-decoration: none;
+    color: brown;
+    font-size: 18px;
+}
